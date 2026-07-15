@@ -1,201 +1,90 @@
-                                 Apache License
-                           Version 2.0, January 2004
-                        http://www.apache.org/licenses/
+---
+product: Operator Stack
+owner: Krastor
+status: v1 complete, pre-packaging
+created: 2026-07-15
+updated: 2026-07-15
+---
 
-   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+# Operator Stack — by Krastor
 
-   1. Definitions.
+**The self-maintaining Claude + Obsidian second brain for anyone running a business — solo operator, agency owner, small business owner, or a builder standing up their own AI-run operation.**
 
-      "License" shall mean the terms and conditions for use, reproduction,
-      and distribution as defined by Sections 1 through 9 of this document.
+## What this actually is
 
-      "Licensor" shall mean the copyright owner or entity authorized by
-      the copyright owner that is granting the License.
+Operator Stack is a pack of Claude Agent Skills plus a matching Obsidian vault structure. Install both, and Claude stops being a chat window you re-explain your business to every session, and starts being an operator that remembers your clients, tracks your money, drafts your outreach, builds your simple tools, pushes back on bad decisions, and compounds a real knowledge base the longer you use it.
 
-      "Legal Entity" shall mean the union of the acting entity and all
-      other entities that control, are controlled by, or are under common
-      control with that entity. For the purposes of this definition,
-      "control" means (i) the power, direct or indirect, to cause the
-      direction or management of such entity, whether by contract or
-      otherwise, or (ii) ownership of fifty percent (50%) or more of the
-      outstanding shares, or (iii) beneficial ownership of such entity.
+It's the same architecture Krastor runs on internally (vault-prime, context-offload, memory-consolidation, pattern-extraction) generalized for anyone who wants it — a single-operator business, a small agency, or a friend who just wants their own second brain. The proof this works is that Krastor has been running on it since day one.
 
-      "You" (or "Your") shall mean an individual or Legal Entity
-      exercising permissions granted by this License.
+**What it is not:** it is not a hosted SaaS, not a chatbot, not a CRM. The owner owns their vault, owns their Claude subscription, owns their data. Krastor sells the architecture and the skill pack — the same "we own the design, you own the tools" model Krastor uses with consulting clients.
 
-      "Source" form shall mean the preferred form for making modifications,
-      including but not limited to software source code, documentation
-      source, and configuration files.
+## Seven categories, 34 skills
 
-      "Object" form shall mean any form resulting from mechanical
-      transformation or translation of a Source form, including but
-      not limited to compiled object code, generated documentation,
-      and conversions to other media types.
+1. **Foundation (8 skills)** — the self-learning, self-maintaining engine, and the actual differentiator versus every other skill pack on the market. `day-one-setup` interviews the owner on first run and fills in their context automatically — this pack doesn't ship with blank templates the owner has to hand-fill. The rest (`operator-prime`, `capture-everything`, `memory-consolidation`, `pattern-radar`, `vault-hygiene`, `frontmatter-standard`, `propose-new-skill`) form the read/write/maintain loop that makes the vault get smarter the longer it's used, without the owner doing anything except keep working.
+2. **Core ops (5 skills)** — cash flow, invoicing, contracts, tasks, month-end close.
+3. **Revenue (5 skills)** — lead triage, outreach, proposals, client sentiment, content planning.
+4. **Build/ship (3 skills)** — landing pages, automation scoping, small internal tools.
+5. **Decision support (5 skills)** — pricing, go/no-go, competitive checks, quarterly review, risk — all built to hand the actual call back to the owner, never to make it for them.
+6. **Knowledge wiki (3 skills)** — a second, separate memory system for compounding research and knowledge over time: `source-ingest`, `wiki-query`, `wiki-lint`, built on a raw-sources → Claude-maintained-wiki → index/log architecture. This is the "second brain" half of the product — usable for market research, competitive intelligence, book/course notes, or a personal knowledge base, independent of the day-to-day business-ops layer.
 
-      "Work" shall mean the work of authorship, whether in Source or
-      Object form, made available under the License, as indicated by a
-      copyright notice that is included in or attached to the work
-      (an example is provided in the Appendix below).
+Plus **06-obsidian-companion** — five bundled skills (MIT licensed, from kepano/obsidian-skills) that teach Claude to actually use Obsidian's native formats: wikilinks/callouts/properties, `.base` database views, `.canvas` boards, and clean web-page extraction. Without these, Claude tends to write plain markdown that technically works but ignores everything Obsidian does well.
 
-      "Derivative Works" shall mean any work, whether in Source or Object
-      form, that is based on (or derived from) the Work and for which the
-      editorial revisions, annotations, elaborations, or other modifications
-      represent, as a whole, an original work of authorship. For the purposes
-      of this License, Derivative Works shall not include works that remain
-      separable from, or merely link (or bind by name) to the interfaces of,
-      the Work and Derivative Works thereof.
+## Why this and not the other solopreneur skill packs already on the market
 
-      "Contribution" shall mean any work of authorship, including
-      the original version of the Work and any modifications or additions
-      to that Work or Derivative Works thereof, that is intentionally
-      submitted to Licensor for inclusion in the Work by the copyright owner
-      or by an individual or Legal Entity authorized to submit on behalf of
-      the copyright owner. For the purposes of this definition, "submitted"
-      means any form of electronic, verbal, or written communication sent
-      to the Licensor or its representatives, including but not limited to
-      communication on electronic mailing lists, source code control systems,
-      and issue tracking systems that are managed by, or on behalf of, the
-      Licensor for the purpose of discussing and improving the Work, but
-      excluding communication that is conspicuously marked or otherwise
-      designated in writing by the copyright owner as "Not a Contribution."
+Anthropic shipped Claude for Small Business in May 2026. There are already Solopreneur OS packs, 15-skill stacks, and marketplaces selling one-off skills for $4 a piece. None of what's out there does what Operator Stack does:
 
-      "Contributor" shall mean Licensor and any individual or Legal Entity
-      on behalf of whom a Contribution has been received by Licensor and
-      subsequently incorporated within the Work.
+1. **It's self-maintaining, not a static list.** Most competing packs are a folder of skills that never change and never learn the owner's business. The foundation layer captures decisions, consolidates duplicates, flags stale or contradictory data, and proposes new skills when it notices a recurring gap.
+2. **It onboards itself.** `day-one-setup` means the owner never stares at an empty template file — the vault knows their business by the end of the first real conversation.
+3. **It's two products in one: business operator + second brain.** The knowledge-wiki layer is a compounding research/synthesis system, not just task management — most competing packs don't have anything like it.
+4. **It's built by someone who runs an actual business on it.** Every business-ops skill in this pack mirrors a skill Krastor uses for real client work, generalized. That claim has to stay true — don't ship a skill in this pack that Krastor itself wouldn't trust with real client money or a real deadline.
 
-   2. Grant of Copyright License. Subject to the terms and conditions of
-      this License, each Contributor hereby grants to You a perpetual,
-      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
-      copyright license to reproduce, prepare Derivative Works of,
-      publicly display, publicly perform, sublicense, and distribute the
-      Work and such Derivative Works in Source or Object form.
+## Structure
 
-   3. Grant of Patent License. Subject to the terms and conditions of
-      this License, each Contributor hereby grants to You a perpetual,
-      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
-      (except as stated in this section) patent license to make, have made,
-      use, offer to sell, sell, import, and otherwise transfer the Work,
-      where such license applies only to those patent claims licensable
-      by such Contributor that are necessarily infringed by their
-      Contribution(s) alone or by combination of their Contribution(s)
-      with the Work to which such Contribution(s) was submitted. If You
-      institute patent litigation against any entity (including a
-      cross-claim or counterclaim in a lawsuit) alleging that the Work
-      or a Contribution incorporated within the Work constitutes direct
-      or contributory patent infringement, then any patent licenses
-      granted to You under this License for that Work shall terminate
-      as of the date such litigation is filed.
+```
+operator-stack/
+├── README.md                    <- this file
+├── MANIFEST.md                  <- full skill inventory, categories, install order
+├── vault-template/              <- the starter Obsidian vault a buyer clones
+│   ├── CLAUDE.md                <- boot sequence + first-session logic
+│   ├── TASKS.md
+│   ├── journal/README.md
+│   ├── knowledge-wiki/          <- raw/, wiki/, index.md, log.md scaffolding
+│   └── memory/
+│       ├── context/you.md       <- filled in by day-one-setup, not hand-edited
+│       ├── context/preferences.md
+│       └── glossary.md
+└── skills/
+    ├── 00-foundation/           <- install first, always
+    ├── 01-core-ops/
+    ├── 02-revenue/
+    ├── 03-build-ship/
+    ├── 04-decision-support/
+    ├── 05-knowledge-wiki/
+    └── 06-obsidian-companion/   <- bundled MIT-licensed skills, LICENSE file included
+```
 
-   4. Redistribution. You may reproduce and distribute copies of the
-      Work or Derivative Works thereof in any medium, with or without
-      modifications, and in Source or Object form, provided that You
-      meet the following conditions:
+## Monetization path (per Greyson's direction, 2026-07-15)
 
-      (a) You must give any other recipients of the Work or
-          Derivative Works a copy of this License; and
+1. **Build v1** — done, all 34 skills shipped.
+2. **Beta with a friend** — hand it to someone setting up a fresh Obsidian vault from scratch, watch where onboarding breaks, fix it.
+3. **Sell online, one-time, $99** — after the beta proves install-and-go works for someone who isn't Greyson and isn't a Krastor client.
+4. Longer term: maintained-subscription tier and engagement-bundling stay open as follow-on plays. The $99 one-time sale is the near-term target.
 
-      (b) You must cause any modified files to carry prominent notices
-          stating that You changed the files; and
+**Open item, not yet resolved:** this product sits close to the TeamBrain Personal Tier spec — both target solo operators. The working differentiation: Operator Stack = the buyer's own vault, own tools, no hosting, sold once. TeamBrain Personal = hosted SaaS with a personal MCP endpoint, subscription. Revisit explicitly before public sale — see TASKS.md.
 
-      (c) You must retain, in the Source form of any Derivative Works
-          that You distribute, all copyright, patent, trademark, and
-          attribution notices from the Source form of the Work,
-          excluding those notices that do not pertain to any part of
-          the Derivative Works; and
+## Install (for the buyer)
 
-      (d) If the Work includes a "NOTICE" text file as part of its
-          distribution, then any Derivative Works that You distribute must
-          include a readable copy of the attribution notices contained
-          within such NOTICE file, excluding those notices that do not
-          pertain to any part of the Derivative Works, in at least one
-          of the following places: within a NOTICE text file distributed
-          as part of the Derivative Works; within the Source form or
-          documentation, if provided along with the Derivative Works; or,
-          within a display generated by the Derivative Works, if and
-          wherever such third-party notices normally appear. The contents
-          of the NOTICE file are for informational purposes only and
-          do not modify the License. You may add Your own attribution
-          notices within Derivative Works that You distribute, alongside
-          or as an addendum to the NOTICE text from the Work, provided
-          that such additional attribution notices cannot be construed
-          as modifying the License.
+1. Clone `vault-template/` into a new Obsidian vault, or drop its contents into an existing one.
+2. Copy `skills/` into the Claude Code / Cowork skills directory.
+3. Open Claude in the vault root. On first message, `day-one-setup` fires automatically and interviews the owner — no manual template-filling required.
+4. Everything else — memory, business ops, knowledge wiki — works from that point forward without further setup.
 
-      You may add Your own copyright statement to Your modifications and
-      may provide additional or different license terms and conditions
-      for use, reproduction, or distribution of Your modifications, or
-      for any such Derivative Works as a whole, provided Your use,
-      reproduction, and distribution of the Work otherwise complies with
-      the conditions stated in this License.
+## Attribution / licensing notes
 
-   5. Submission of Contributions. Unless You explicitly state otherwise,
-      any Contribution intentionally submitted for inclusion in the Work
-      by You to the Licensor shall be under the terms and conditions of
-      this License, without any additional terms or conditions.
-      Notwithstanding the above, nothing herein shall supersede or modify
-      the terms of any separate license agreement you may have executed
-      with Licensor regarding such Contributions.
+- `skills/06-obsidian-companion/` is bundled from kepano/obsidian-skills, MIT licensed. The license notice must ship with the pack — see that folder's `LICENSE-obsidian-skills.md`.
+- `skills/05-knowledge-wiki/` implements a general knowledge-compounding pattern (raw sources → maintained wiki → index/log) as original content — no third-party code or text copied in.
 
-   6. Trademarks. This License does not grant permission to use the trade
-      names, trademarks, service marks, or product names of the Licensor,
-      except as required for reasonable and customary use in describing the
-      origin of the Work and reproducing the content of the NOTICE file.
+## Build log
 
-   7. Disclaimer of Warranty. Unless required by applicable law or
-      agreed to in writing, Licensor provides the Work (and each
-      Contributor provides its Contributions) on an "AS IS" BASIS,
-      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
-      implied, including, without limitation, any warranties or conditions
-      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
-      PARTICULAR PURPOSE. You are solely responsible for determining the
-      appropriateness of using or redistributing the Work and assume any
-      risks associated with Your exercise of permissions under this License.
-
-   8. Limitation of Liability. In no event and under no legal theory,
-      whether in tort (including negligence), contract, or otherwise,
-      unless required by applicable law (such as deliberate and grossly
-      negligent acts) or agreed to in writing, shall any Contributor be
-      liable to You for damages, including any direct, indirect, special,
-      incidental, or consequential damages of any character arising as a
-      result of this License or out of the use or inability to use the
-      Work (including but not limited to damages for loss of goodwill,
-      work stoppage, computer failure or malfunction, or any and all
-      other commercial damages or losses), even if such Contributor
-      has been advised of the possibility of such damages.
-
-   9. Accepting Warranty or Additional Liability. While redistributing
-      the Work or Derivative Works thereof, You may choose to offer,
-      and charge a fee for, acceptance of support, warranty, indemnity,
-      or other liability obligations and/or rights consistent with this
-      License. However, in accepting such obligations, You may act only
-      on Your own behalf and on Your sole responsibility, not on behalf
-      of any other Contributor, and only if You agree to indemnify,
-      defend, and hold each Contributor harmless for any liability
-      incurred by, or claims asserted against, such Contributor by reason
-      of your accepting any such warranty or additional liability.
-
-   END OF TERMS AND CONDITIONS
-
-   APPENDIX: How to apply the Apache License to your work.
-
-      To apply the Apache License to your work, attach the following
-      boilerplate notice, with the fields enclosed by brackets "[]"
-      replaced with your own identifying information. (Don't include
-      the brackets!)  The text should be enclosed in the appropriate
-      comment syntax for the file format. We also recommend that a
-      file or class name and description of purpose be included on the
-      same "printed page" as the copyright notice for easier
-      identification within third-party archives.
-
-   Copyright [yyyy] [name of copyright owner]
-
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
+- **2026-07-15** — v1 architecture defined, foundation layer adapted from Krastor's own vault-prime/context-offload/memory-consolidation/pattern-extraction/vault-hygiene/frontmatter-enforcer. 25 skills shipped across core ops, revenue, build/ship, decision support.
+- **2026-07-15 (same day, expansion pass)** — added `day-one-setup` onboarding skill, the `05-knowledge-wiki` category (3 skills), and bundled `06-obsidian-companion` (5 skills from kepano/obsidian-skills, MIT). Pack grew from 25 to 34 skills. Broadened positioning from "solopreneur" to "anyone running a business or standing up their own AI-run operation." See journal entry same 
