@@ -157,4 +157,4 @@ sideways.
 
 Reads relevant client/vendor context via the `operator-prime` pattern (prior contracts, known
 relationship history). Writes the review, severity flags, and any follow-up items back via the
-`capture-everything` pattern (client file, journal, `TASKS.
+`capture-everything` pattern (client file, journal, `TASKS.md`).

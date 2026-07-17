@@ -87,4 +87,4 @@ operator-stack/
 ## Build log
 
 - **2026-07-15** — v1 architecture defined, foundation layer adapted from Krastor's own vault-prime/context-offload/memory-consolidation/pattern-extraction/vault-hygiene/frontmatter-enforcer. 25 skills shipped across core ops, revenue, build/ship, decision support.
-- **2026-07-15 (same day, expansion pass)** — added `day-one-setup` onboarding skill, the `05-knowledge-wiki` category (3 skills), and bundled `06-obsidian-companion` (5 skills from kepano/obsidian-skills, MIT). Pack grew from 25 to 34 skills. Broadened positioning from "solopreneur" to "anyone running a business or standing up their own AI-run operation." See journal entry same 
+- **2026-07-15 (same day, expansion pass)** — added `day-one-setup` onboarding skill, the `05-knowledge-wiki` category (3 skills), and bundled `06-obsidian-companion` (5 skills from kepano/obsidian-skills, MIT). Pack grew from 25 to 34 skills. Broadened positioning from "solopreneur" to "anyone running a business or standing up their own AI-run operation." See journal entry same date.
